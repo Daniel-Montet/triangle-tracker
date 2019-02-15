@@ -6,10 +6,12 @@
   </head>
   <body>
     <h1>Triangle tracker</h1>
-    <textarea type="takeInput" name="grocerisfield" rows="8" cols="60" id="input"></textarea>
-    <button id="num1" value="button" >num1</button>
-    <button id="num2" value="button" >num2</button>
-    <button id="num3" value="button" >num3</button>
+    <form>
+      <input type="text" id="input">
+      <input id="num1" type="button" name="value1" value="submitvalue1" onclick="getInput()">
+      <input id="num2" type="button" name="value2" value="submitvalue2" onclick="getInput()">
+      <input id="num3" type="button" name="value3" value="submitvalue3" onclick="getInput()">
+    </form>
   </body>
   <script src="js/scripts.js" charset="utf-8"></script>
 </html>
