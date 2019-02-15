@@ -1,28 +1,26 @@
-var list=[];
-function getInput1(){
+var inputarray=[];
+function getInput1(){//get input from first textbox
 
   var input1=document.getElementById("input1").value;
   var input1=parseInt(input1);
-  alert(input1);
-  list.push(input1);
+  inputarray.push(input1);
 
 }
-function getInput2(){
+function getInput2(){//get input from second textbox
 
   var input2=document.getElementById("input2").value;
   var input2=parseInt(input2);
-  alert(input2);
-  list.push(input2);
+  inputarray.push(input2);
 }
-function getInput3(){
+function getInput3(){//get input from third textbox
 
   var input3=document.getElementById("input3").value;
   var input3=parseInt(input3);
-  alert(input3);
-  list.push(input3);
-  var num1=parseInt(list[0]);
-  var num2=parseInt(list[1]);
-  var num3=parseInt(list[2]);
+  inputarray.push(input3);
+
+  var num1=parseInt(inputarray[0]);
+  var num2=parseInt(inputarray[1]);
+  var num3=parseInt(inputarray[2]);
   triangilize(num1,num2,num3);
 
 
