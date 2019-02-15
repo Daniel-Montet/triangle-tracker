@@ -24,7 +24,7 @@ function getInput3(){//get input from third textbox
   triangilize(num1,num2,num3);
 
 
-  function triangilize(firstnumber,secondnumber,thirdnumber){
+  function triangilize(firstnumber,secondnumber,thirdnumber){////BUSINESS LOGIC
 
     if ((firstnumber===secondnumber) && (firstnumber===thirdnumber) && (secondnumber===thirdnumber)){
       alert("equilateral");
