@@ -1,35 +1,21 @@
-document.getElementById('num1').addEventListener("click",function(){
-document.getElementById("var").innerHTML = "Hello World";
-});
-document.getElementById('num2').addEventListener("click",function(){
-document.getElementById("var").innerHTML = "Hello World2";
-});
-document.getElementById('num3').addEventListener("click",function(){
-document.getElementById("var").innerHTML = "Hello World3";
-});
+var list=[];
+var firstnumber=list[0];
+var secondnumber=list[1];
+var thirdnumber=list[2];
+function getInput() {//get submitted inputs
 
-if (a===b && a===c && b===c){
-alert(equilateral);
+  var input=document.getElementById("input").value;
+  var input=parseInt(input);
+  list.push(input);
+  pushValue();
+//  document.getElementById(id="num1").addEventListener("click",pushValue());
+//  document.getElementById(id="num2").addEventListener("click",pushValue());
+//  document.getElementById(id="num3").addEventListener("click",pushValue());
 }
-else if ((a+b)<=c || (a+c)<=b || (b+c)<=a){
-alert("cannot form triangle");
-}
-else
-}
-do {
-if((a+b)>c || (a+c)>b || (b+c)>a)
-  alert("scalene")
-  break;
-}
+//add value
 
-while (a!=b && b!=c && a!=c) {
+function pushValue(){
+  alert(list);
+  alert(firstnumber);
+  alert(secondnumber);
 }
-
-function(){
-  var value=document.getElementById('first_number');
-  var value=document.getElementById('first_number');
-  var value=document.getElementById('third_number');
-}
-
-
-//ui logic
