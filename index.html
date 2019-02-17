@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Triangle Tracker</title>
 </head>
-<body >
+<body onload="hideElem()">
   <h1>Triangle tracker</h1>
   <div id="container">
     <form>
@@ -21,9 +21,19 @@
     <p id="thanks"></p>
     <div class="images" id="images">
       <p id=typeoftriangle></p>
-      <img src="" alt="This is a scalene triangle" id="triangle" onload="hideElem()">
+      <img src="" alt="This is a scalene triangle" id="triangle" >
     </div>
   </div>
+  <div class="Notes">
+    <ol>
+      <h3> Based on the functionality of the application, key points to note are:</h3>
+      <li>For an equilateral triangle, all sides must be equal.</li>
+      <li>For an isosceles triangle, two sides are exactly equal.</li>
+      <li>For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side.</li>
+      <li>Most importantly, if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)</li>
+    </ol>
+  </div>
+  
 </body>
 <script src="js/scripts.js" charset="utf-8"></script>
 </html>
