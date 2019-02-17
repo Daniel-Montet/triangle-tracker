@@ -1,14 +1,34 @@
-#container{
-  width: 400px;
+#input{
+  width: 700px;
   height: 400px;
-  position: relative;
-  background: yellow;
+  background-position: left top;
+  float: left;
+  background: red;
+  border-style: groove;
 }
 #output{
-  background: red;
+  background: green;
+  border-style: groove;
+  background-position:right top;
+  height: 400px;
+  width: 615px;
+  float:right;
+  position: relative;
+  overflow: hidden;
 }
-.notes{
-  background: blue;
+.Notes{
+  border-style: groove;
+  background: yellow;
+  height: 150px;
+  width: 1080px;
+  float: right;
+  overflow: hidden;
+
+}
+body{
+
+  border-style: groove;
+
 }
 
 h1{
