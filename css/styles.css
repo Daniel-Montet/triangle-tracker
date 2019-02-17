@@ -1,0 +1,16 @@
+#container{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#output{
+  background: red;
+}
+.notes{
+  background: blue;
+}
+
+h1{
+  text-align: center;
+}
