@@ -65,6 +65,7 @@ function triangilize(firstnumber,secondnumber,thirdnumber){////BUSINESS LOGIC TA
   else{//CHECK IF VALUES SCALENE
     do {
       if((firstnumber+secondnumber)>thirdnumber || (firstnumber+thirdnumber)>secondnumber || (secondnumber+thirdnumber)>firstnumber)
+      printtype("a scalene")
       output(scalene);
       unhideElem("triangle");
       unhideElem("listheader");
@@ -75,7 +76,7 @@ function triangilize(firstnumber,secondnumber,thirdnumber){////BUSINESS LOGIC TA
     while (firstnumber!=secondnumber && secondnumber!=thirdnumber && firstnumber!=thirdnumber) {
     }
   }
-  alert (inputarray);
+
 }
 
 
@@ -99,7 +100,7 @@ function hideElem(){//TAKE ELEMENT ID AND INITIALY HIDE IMAGE ONLOADING OF PAGE
 
 function unhideElem(arg){//TAKE ELEMENT ID AND UNHIDE ELEMENT AFTER EXCECUTION
     document.getElementById(arg).style.display='block';
-    alert("un-hidden")
+
 }
 
 function output(src){//function to output of triangle image type  from srC ONLINE
