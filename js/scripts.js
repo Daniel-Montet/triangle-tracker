@@ -62,8 +62,13 @@ function reset(){//RESET INPUT ARRAY AFTER INPUT SUBMISSION AND PRINTING ON HTML
 
 }
 
-function hideimage(){//INITIALY HIDE IMAGE ONLOADING OF PAGE
-  document.getElementById('triangle').
+function hideElem(){//INITIALY HIDE IMAGE ONLOADING OF PAGE
+  var elem=document.getElementById('triangle').style.display='none';
+  alert("hidden");
+}
+function unhideElem(){//UNHIDE ELEMENT AFTER EXCECUTION
+  var elem=document.getElementById('triangle').style.display='block';
+  alert("un-hidden")
 }
 
 function output(src){//function to output image type of triangle from src
