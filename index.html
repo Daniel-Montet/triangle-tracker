@@ -3,20 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>Triangle Tracker</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<body   onload="hideElem()">
+<body  onload="hideElem()" background="images/damian-zaleski.jpg">
 
   <h1>Triangle tracker</h1>
-  <div id="container">
-    <form>
-      <p id="p1">Enter your first no</p>
+  <div id="input">
+      <form action="">
+        <p>Enter your first no</p>
       <input type="text" id="input1">
       <p>Enter your second number</p>
       <input type="text" id="input2">
       <p>Enter your third number</p>
       <input type="text" id="input3">
-      <input type="reset" name="value3" value="submit" onclick="getInput()">
-    </form>
+      </form>
+
+      <input id="reset"type="reset" name="value3" value="submit" onclick="getInput()">
+
   </div>
   <div id="output">
     <div class="images" id="images">
