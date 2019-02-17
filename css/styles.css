@@ -1,36 +1,74 @@
 #input{
-  width: 700px;
+  border-style: block;
+  width: 500px;
   height: 400px;
   background-position: left top;
   float: left;
-  background: red;
-  border-style: groove;
+  padding-top: 50px;
+  padding-left: 80px;
+
 }
+
+
 #output{
-  background: green;
-  border-style: groove;
+  border-style: block;
+  border-left: 20%;
+  padding-top: 50px;
   background-position:right top;
-  height: 400px;
-  width: 615px;
+  height: 200px;
+  width: 500px;
   float:right;
-  position: relative;
-  overflow: hidden;
+  margin-right: 50px;
+  padding-right: 150px;
+
 }
+
+
 .Notes{
-  border-style: groove;
-  background: yellow;
+  border-style: block;
   height: 150px;
-  width: 1080px;
+  width: 500px;
   float: right;
-  overflow: hidden;
+  margin-right: 50px;
+  padding-right: 150px;
+
 
 }
+
+
+.images{
+  text-align: justify;
+}
+
+
 body{
-
+  height:680px;
   border-style: groove;
+  font-family: 'Roboto', sans-serif;
+  background-size: 1480px 720px;
+  box-shadow: 0px 0px 2px rgb(247, 214, 214);
 
+
+}
+
+#reset{
+  background-color: rgb(105, 105, 116);
+  margin-top: 10px;
+
+}
+
+#triangle{
+  margin-top: 10px;
+  border-radius: 8px;
+  height: 150px;
+  width: 150px;
 }
 
 h1{
   text-align: center;
+  font
+}
+
+p{
+  color: #17202A ;
 }
