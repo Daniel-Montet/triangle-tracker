@@ -18,7 +18,7 @@ The app has both business side logic and front end logic  combined to achieve Re
 | if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values    | 9,4,3 | not a triangle |
 
 ## Known Bugs
-No known bugs currently
+Hidden elements flash on-load
 ## Technologies Used
 * HTML for page structure
 * Java script for behavior of UI on input and computing of output.
