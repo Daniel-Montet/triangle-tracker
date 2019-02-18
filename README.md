@@ -1,13 +1,14 @@
-# {Triangle Tracker}
-#### {The application aims to take and output value of inputs as either scalene,equilateral, isosceles or not a triangle.}, {2019}
-#### By **{Daniel Montet}**
+# Triangle Tracker
+#### The application aims to take and output value of inputs as either scalene,equilateral, isosceles or not a triangle. , 2019
+#### By **Daniel Montet**
 ## Description
 The app has both business side logic and front end logic  combined to achieve Requirements.
 ## Setup/Installation Requirements
-* Search for repo name
+* Search for repository name
 * Click on clone/download to get import link
 * download files and resolve dependencies depending on your Operating System on local machine
-* The app depends on git and github for a local and remote link.
+* The app depends on git and git hub for a local and remote link.
+* Use of source code for malicious intent may be followed up with legal action and is independent of the source code.
 
 | Behavior        | Input          | Output  |
 | ------------- |:-------------:| -----:|
@@ -17,16 +18,17 @@ The app has both business side logic and front end logic  combined to achieve Re
 | if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values    | 9,4,3 | not a triangle |
 
 ## Known Bugs
-{No known bugs currently}
+No known bugs currently
 ## Technologies Used
-* TML for page structure
+* HTML for page structure
 * Java script for behavior of UI on input and computing of output.
-* Css for styling and visibility of page.
+* CSS for styling and visibility of page.
 
 ## Support and contact details
 In case of any questions, contact me by:
 * EMAIL: dmontetproff@gmail.com
 * SLACK: Daniel Montet
+
 ### License
 *{MIT}*
-Copyright (c) {2019} **{Daniel Montet}**
+Copyright (c) {2019} **Daniel Montet**
